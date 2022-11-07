@@ -6,13 +6,15 @@ public class BillTester
 
         // Create a bill for a birthday dinner for 10 people
 
+        Bill birthdayDinner = new Bill(cost,10 );
         System.out.println("Birthday Dinner");
-        System.out.println();
+        System.out.println(birthdayDinner);
 
         // Add the tip
 
+        birthdayDinner.addTip();
         System.out.println("\nBirthday Dinner after tip");
-        System.out.println();
+        System.out.println(birthdayDinner);
 
 
 
