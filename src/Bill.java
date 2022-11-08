@@ -21,8 +21,11 @@ class Bill
             costOfMeal *= 1.25;
         }
 
-        if(totalCustomers >= 4){
+        else if(totalCustomers >= 4){
             costOfMeal *= 1.2;
+        }
+        else if (totalCustomers >= 2){
+            costOfMeal *= 1.05;
         }
     }
 
